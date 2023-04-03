@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity"
+    android:background="@drawable/background">
+
+    <ImageView
+        android:id="@+id/fooflogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:padding="8dp"
+        app:srcCompat="@drawable/foodimag3"
+        android:background="#C10F170C"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="60dp" />
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/fooflogo"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="cursive"
+        android:padding="8dp"
+        android:text="Online Food"
+        android:textColor="#FBF9F9"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/editTextPhone2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputcolor"
+        android:ems="10"
+        android:hint="+92306-4276350"
+        android:gravity="center"
+        android:inputType="phone"
+        android:padding="15dp"
+        android:textSize="25dp"
+        android:layout_below="@id/textView1"
+        android:layout_marginRight="20dp"
+        android:layout_marginLeft="20dp"
+        />
+
+    <EditText
+        android:id="@+id/editTextTextPassword3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/inputcolor"
+        android:ems="10"
+        android:gravity="center"
+        android:hint="..........."
+        android:inputType="textPassword"
+        android:padding="15dp"
+        android:textSize="25dp"
+        android:layout_below="@id/editTextPhone2"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"/>
+
+    <TextView
+        android:id="@+id/signin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:text="Sign_in"
+        android:textColor="@color/white"
+        android:textSize="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_below="@id/editTextTextPassword3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        />
+
+
+    <View
+        android:id="@+id/view2"
+        android:layout_width="50dp"
+        android:layout_height="2dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+        android:layout_below="@id/signin"
+        android:layout_marginLeft="90dp" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="    Or With"
+        android:textColor="@color/white"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:layout_below="@id/signin"
+        android:layout_centerHorizontal="true"/>
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="50dp"
+        android:layout_height="2dp"
+        android:layout_below="@id/textView5"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="-16dp"
+        android:layout_marginRight="73dp"
+        android:layout_marginBottom="-25dp"
+        android:background="@color/white" />
+
+
+
+    <TextView
+        android:id="@+id/facebook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view3"
+        android:layout_marginLeft="80dp"
+        android:layout_marginTop="46dp"
+        android:drawableLeft="@drawable/facebook48"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text=" Facebook    "
+        android:textColor="#FFFFFF"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:id="@+id/google"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/view2"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginRight="53dp"
+        android:layout_marginBottom="20dp"
+        android:layout_toRightOf="@id/facebook"
+        android:drawableLeft="@drawable/google48"
+        android:gravity="center"
+        android:padding="4dp"
+        android:text="Google"
+        android:textColor="@color/white"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/backRegis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Don't Have an Account ? Register"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:layout_marginLeft="100dp"
+        android:textColor="@color/white"
+        android:layout_below="@id/facebook"
+        android:layout_marginTop="35dp" />
+
+    <TextView
+        android:id="@+id/back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text=" Back "
+        android:textColor="@color/white"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/backRegis"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="14dp"
+        android:text=" view "
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/delete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="687dp"
+        android:layout_toRightOf="@id/insert"
+        android:text=" Delete "
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+    <TextView
+        android:id="@+id/updata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/delete"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="687dp"
+        android:text=" Update "
+        android:textColor="@color/white"
+        android:textSize="25dp" />
+
+
+</RelativeLayout>

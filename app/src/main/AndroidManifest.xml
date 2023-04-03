@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.onlinefoodapplicationproject">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.OnlineFoodApplicationProject">
+        <activity android:name=".pay10" />
+        <activity android:name=".pay9" />
+        <activity android:name=".pay8" />
+        <activity android:name=".pay7" />
+        <activity android:name=".pos6" />
+        <activity android:name=".pay5" />
+        <activity android:name=".pay4" />
+        <activity android:name=".pay3" />
+        <activity android:name=".pos2" />
+        <activity
+            android:name=".ContProSecondProject"
+            android:exported="false" />
+        <activity android:name=".NoData" />
+        <activity android:name=".resgInfor" />
+        <activity android:name=".loginInfor" />
+        <activity android:name=".regis" />
+        <activity android:name=".LoginActivity" />
+        <activity android:name=".BeforeHomeActivity" />
+        <activity
+            android:name=".splashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <provider
+            android:name=".DetailProvider"
+            android:authorities="com.my.own.detail.provider.onlineFood"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name=".MainActivity" />
+        <activity
+            android:name=".ShowDataBaseResults"
+            android:screenOrientation="portrait" />
+        <activity android:name=".posActivity10" />
+        <activity android:name=".posActivity9" />
+        <activity android:name=".posActivity8" />
+        <activity android:name=".posActivity7" />
+        <activity android:name=".posActivity6" />
+        <activity android:name=".posActivity5" />
+        <activity android:name=".posActivity4" />
+        <activity android:name=".positionActivity3" />
+        <activity android:name=".positionActivity2" />
+        <activity android:name=".position1Activity" />
+        <activity android:name=".pay1" />
+    </application>
+
+</manifest>

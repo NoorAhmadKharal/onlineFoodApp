@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".positionActivity2"
+    android:background="@drawable/background">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        tools:ignore="MissingConstraints">
+        <TextView
+            android:id="@+id/back2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=" Back "
+            android:textSize="20dp"
+            android:textColor="@color/white"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"/>
+
+        <ImageView
+            android:id="@+id/position1"
+            android:layout_width="wrap_content"
+            android:layout_height="300dp"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:src="@drawable/fresh_orange_juice_glass"/>
+
+        <TextView
+            android:id="@+id/rspos1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rs 300"
+            android:textColor="@color/white"
+            android:textSize="50dp"
+            android:layout_below="@id/position1"
+            android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:id="@+id/rsenter"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rspos1"
+            android:layout_marginLeft="40dp"
+            android:layout_marginTop="18dp"
+            android:layout_marginRight="40dp"
+            android:background="@drawable/inputcolor"
+            android:gravity="center"
+            android:hint="How Much Pieces"
+            android:padding="10dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/sendpos2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/rsenter"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/inputcolor"
+            android:padding="10dp"
+            android:text="PAYMENT"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+
+
+
+    </RelativeLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
